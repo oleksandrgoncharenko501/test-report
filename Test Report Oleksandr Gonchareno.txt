@@ -1,0 +1,19 @@
+
+1.Manual test cases
+
+|Name of test                          | Is automated| Level  |
+|Create article                        | yes         | UI,API |
+|Delete article                        | yes         | UI,API |
+|Delete non existing article           | yes         | API    |
+|Delete article created by another user| yes         | API    |
+|Creation of article(negative)         | yes         | API    |
+
+2. Found issues
+BUG: Article could be created with empty mandatory fields
+
+3. Why automated
+Main functionality in blog is ability to create and delete article, thats why these functionality was chosen for testing.
+Positive cases were covered in UI part.
+Positive + Negative tests were covered in UI +  API parts.
+It was done based on testing pyramid => less UI more API tests
+
